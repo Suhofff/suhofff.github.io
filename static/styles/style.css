@@ -127,21 +127,22 @@ span {
     background-color: rgb(238, 192, 106);
     vertical-align: top;
 }
+.PanUp {
+    padding-top: 30px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
 .panel {
-    font-size: 30.3px;
+    font-size: 39.3px;
     display: inline-block;
     padding-top: 100px;
     width: 100%;
-    background-color: rgb(238, 192, 106);
     vertical-align: top;
 }
-.PanUp {
-    padding-top: 30px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: rgb(238, 192, 106);
-}
+
 .panel>p {
     padding: 30px;
 }
@@ -150,5 +151,4 @@ span {
     padding-left: 180px;
     font-size: 30px;
     font-weight: bolder;
-    background-color: rgb(238, 192, 106);
 }
