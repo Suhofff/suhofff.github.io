@@ -3,8 +3,8 @@
 }
 
 body {
-    background: url(../images/Fone2.png);
-    height: 100%;
+    background: url(../images/Fone2.png) fixed;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -36,27 +36,27 @@ body {
 }
 
 .zagolovok {
-    display: grid;
     text-align: center;
-    font-size: 50px;
-    width: 1008px;
-    height: 300px;
+    font-size: 35px;
+    width: 65%;
+    height: 30%;
     background-color: rgb(250, 181, 5);
 }
 
 .conteiner {
     padding-left: 10px;
     margin-top: 20px;
-    width: 90%;
+    width: 65%;
     text-align: justify;
 }
 
 span {
     font-weight: bolder;
-    font-size: 23.5px;
+    font-size: 25.5px;
 }
 
 .image {
+    width: 100%;
     display: inline-flex;
     align-items: center;
 }
@@ -64,7 +64,7 @@ span {
 .image>img {
     margin-top: 20px;
     margin-left: 50px;
-    width: 450px;
+    width: 30%;
     display: inline-block;
 }
 
@@ -79,16 +79,10 @@ span {
 
 
 
-span2 {
-
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
 /* верхняя навигационная панель */
 
 .nav-container>nav>ul {
-    width: 90%;
+    width: 65%;
     font-size: 22.3px;
     display: flex;
     list-style: none;
@@ -106,14 +100,12 @@ span2 {
 }
 
 .character1 {
-    margin-top: 90px;
+    margin-top: 200px;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
     display: inline-block;
-    margin-right: -5px;
-    margin-left: 0px;
-    width: 50%;
+    width: 45%;
     background-color: rgb(238, 192, 106);
     vertical-align: top;
 }
@@ -126,23 +118,22 @@ span2 {
 }
 
 .character2 {
-    margin-top: 90px;
+    margin-top: 200px;
     display: inline-block;
     margin-right: 0px;
     margin-left: 0px;
-    width: 50%;
+    width: 45%;
     font-size: 33.3px;
     background-color: rgb(238, 192, 106);
     vertical-align: top;
 }
 .panel {
     font-size: 39.3px;
-    display: inline-flexbox;
+    display: inline-block;
     padding-top: 100px;
-    width: 2000px;
-    height: 1300px;
+    width: 100%;
     background-color: rgb(238, 192, 106);
-
+    vertical-align: top;
 }
 .PanUp {
     padding-left: 600px;
@@ -160,4 +151,5 @@ span2 {
     font-weight: bolder;
     background-color: rgb(238, 192, 106);
 }
+
 
