@@ -64,16 +64,15 @@ span {
 .image>img {
     margin-top: 20px;
     margin-left: 50px;
-    width: 40%;
+    width: 30%;
     display: inline-block;
 }
 
 .image>VMenu>ul>li>a {
 
     display: flex;
-    padding: 15px;
-    font-size: 100%;
-    ;
+    padding: 15 px;
+    font-size: 200%;
     width: 20%;
 }
 
@@ -101,7 +100,7 @@ span {
 
 .character1 {
     margin-top: 200px;
-    font-size: 40px;
+    font-size: 300%;
     font-weight: bold;
     text-align: center;
     display: inline-block;
@@ -113,7 +112,15 @@ span {
     padding-top: 40px;
     padding-left: 40px;
     text-align: left;
-    font-size: 32px;
+    font-size: 40%;
+    font-weight: bold;
+}
+
+.character1>ul>li {
+    padding-top: 40px;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 130%;
     font-weight: bold;
 }
 
@@ -127,6 +134,7 @@ span {
     background-color: rgb(238, 192, 106);
     vertical-align: top;
 }
+
 .PanUp {
     padding-top: 30px;
     margin-top: 30px;
