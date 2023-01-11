@@ -136,6 +136,7 @@ span {
     vertical-align: top;
 }
 .PanUp {
+    margine-top: 30px;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
