@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background: url(../images/Fone2.png);
+    height: 200vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.senar {
+    font-size: 40px;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.senar>pa {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    display: inline-block;
+}
+
+.adres {
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.zagolovok {
+    display: grid;
+    text-align: center;
+    font-size: 50px;
+    width: 1008px;
+    height: 300px;
+    background-color: rgb(250, 181, 5);
+}
+
+.conteiner {
+    padding-left: 10px;
+    margin-top: 20px;
+    width: 1003px;
+    text-align: justify;
+}
+
+span {
+    font-weight: bolder;
+    font-size: 23.5px;
+}
+
+.image {
+    display: inline-flex;
+    align-items: center;
+}
+
+.image>img {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 450px;
+    display: inline-block;
+}
+
+.image>VMenu>ul>li>a {
+
+    display: flex;
+    padding: 15px;
+    font-size: 35.3px;
+    ;
+    width: 20%;
+}
+
+
+
+span2 {
+
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* верхняя навигационная панель */
+
+.nav-container>nav>ul {
+    width: 1010px;
+    font-size: 22.3px;
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0cm;
+    /* 245 195 47 */
+    background-color: rgb(238, 192, 106);
+}
+
+.nav-container>nav>ul>li>a {
+    display: block;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1.2px;
+}
+
+.character1 {
+    margin-top: 90px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    margin-right: -5px;
+    margin-left: 0px;
+    width: 790px;
+    height: 1200px;
+    background-color: rgb(238, 192, 106);
+    vertical-align: top;
+}
+.character1>ul {
+    padding-top: 40px;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.character2 {
+    margin-top: 90px;
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 790px;
+    height: 1200px;
+    font-size: 33.3px;
+    background-color: rgb(238, 192, 106);
+    vertical-align: top;
+}
+.panel {
+    font-size: 39.3px;
+    display: inline-flexbox;
+    padding-top: 100px;
+    width: 2000px;
+    height: 1300px;
+    background-color: rgb(238, 192, 106);
+
+}
+.PanUp {
+    padding-left: 600px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(238, 192, 106);
+}
+.panel>p {
+    padding: 30px;
+}
+
+.panel>p {
+    padding-left: 180px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: rgb(238, 192, 106);
+}
