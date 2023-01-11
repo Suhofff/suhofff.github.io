@@ -10,6 +10,10 @@ body {
     background-position: center;
 }
 
+.main {
+    height: 100%;
+}
+
 .senar {
     font-size: 40px;
     font-weight: bolder;
@@ -43,7 +47,7 @@ body {
 .conteiner {
     padding-left: 10px;
     margin-top: 20px;
-    width: 1003px;
+    width: 90%;
     text-align: justify;
 }
 
@@ -84,7 +88,7 @@ span2 {
 /* верхняя навигационная панель */
 
 .nav-container>nav>ul {
-    width: 1010px;
+    width: 90%;
     font-size: 22.3px;
     display: flex;
     list-style: none;
@@ -109,8 +113,7 @@ span2 {
     display: inline-block;
     margin-right: -5px;
     margin-left: 0px;
-    width: 790px;
-    height: 1200px;
+    width: 50%;
     background-color: rgb(238, 192, 106);
     vertical-align: top;
 }
@@ -127,8 +130,7 @@ span2 {
     display: inline-block;
     margin-right: 0px;
     margin-left: 0px;
-    width: 790px;
-    height: 1200px;
+    width: 50%;
     font-size: 33.3px;
     background-color: rgb(238, 192, 106);
     vertical-align: top;
@@ -158,3 +160,4 @@ span2 {
     font-weight: bolder;
     background-color: rgb(238, 192, 106);
 }
+
