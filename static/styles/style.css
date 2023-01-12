@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background: url(../images/Fone2.png) fixed;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.senar {
+    font-size: 300%;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.senar>pa {
+    font-size: 50%;
+    font-weight: bold;
+    font-style: italic;
+    display: inline-block;
+}
+
+.adres {
+    font-size: 150%;
+    font-weight: bolder;
+    font-style: italic;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+/* верхняя навигационная панель */
+
+.nav-container>nav>ul {
+    width: 65%;
+    font-size: 80%;
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0cm;
+    /* 245 195 47 */
+    background-color: rgb(238, 192, 106);
+}
+
+.nav-container>nav>ul>li>a {
+    display: flex;
+    padding: 10px;
+    border-style: none;
+    border-width: 1.2px;
+    color: rgb(13, 3, 82);
+}
+
+.zagolovok {
+    text-align: center;
+    font-size: 200%;
+    font-weight: bolder;
+    width: 65%;
+    height: 30%;
+    background-color: rgb(250, 181, 5);
+}
+
+.conteiner {
+    padding-left: 10px;
+    margin-top: 20px;
+    width: 65%;
+    text-align: justify;
+}
+
+span {
+    font-weight: bold;
+    font-size: 120%
+}
+
+.VMenu {
+    font-size: 150%;
+    width: 35%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.VV {
+    display:inline-block;
+    margin-left: 50px;
+    width: 30%;
+    vertical-align: middle;
+}
+.VV>ul>li {
+    font-size: 150%;
+    padding-top: 15%;
+}
+.image {
+    vertical-align: middle;
+    display: inline-block;
+    width: 10%;
+}
+
+.image>img {
+    width: 400px;
+}
+
+
+
+.character1 {
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 190%;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.character1>ul {
+    padding-top: 40px;
+    padding-left: 40px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.character1>ul>li {
+    padding-top: 5%;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 65%;
+    font-weight: bold;
+}
+
+.PanUp1 {
+    margin-left: 50px;
+    width: 60%;
+    padding-top: 100px;
+    padding-left: 100px;
+    text-align: left;
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+.character2 {
+    margin-left: 50px;
+    width: 60%;
+    padding-top: 100px;
+    text-align: left;
+    font-size: 200%;
+}
+
+
+
+.PanUp2 {
+    margin-left: 50px;
+    width: 60%;
+    padding-top: 100px;
+    padding-left: 100px;
+    text-align: left;
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+.panel {
+    margin-left: 50px;
+    width: 60%;
+    padding-top: 100px;
+    text-align: left;
+    font-size: 200%;
+}
+
