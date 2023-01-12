@@ -37,8 +37,7 @@ body {
 /* верхняя навигационная панель */
 
 .nav-container>nav>ul {
-    width: 65%;
-    font-size: 80%;
+    width: 75%;
     display: flex;
     list-style: none;
     margin: 0px;
@@ -49,6 +48,8 @@ body {
 
 .nav-container>nav>ul>li>a {
     display: flex;
+    font-size: 120%;
+    font-weight: bolder;
     padding: 10px;
     border-style: none;
     border-width: 1.2px;
@@ -59,7 +60,7 @@ body {
     text-align: center;
     font-size: 200%;
     font-weight: bolder;
-    width: 65%;
+    width: 75%;
     height: 30%;
     background-color: rgb(250, 181, 5);
 }
@@ -67,7 +68,7 @@ body {
 .conteiner {
     padding-left: 10px;
     margin-top: 20px;
-    width: 65%;
+    width: 75%;
     text-align: justify;
 }
 
@@ -76,22 +77,17 @@ span {
     font-size: 120%
 }
 
-.VMenu {
-    font-size: 150%;
-    width: 35%;
-    display: inline-block;
-    vertical-align: middle;
-}
 
-.VV {
+.Vert {
     display:inline-block;
     margin-left: 50px;
     width: 30%;
     vertical-align: middle;
 }
-.VV>ul>li {
+.Vert>ul>li {
     font-size: 150%;
     padding-top: 15%;
+    font-weight: bolder;
 }
 .image {
     vertical-align: middle;
@@ -107,7 +103,7 @@ span {
 
 .character1 {
     margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 10px;
     font-size: 190%;
     font-weight: bold;
     text-align: center;
@@ -168,4 +164,6 @@ span {
     text-align: left;
     font-size: 200%;
 }
+
+
 
