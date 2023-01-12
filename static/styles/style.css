@@ -37,7 +37,7 @@ body {
 /* верхняя навигационная панель */
 
 .nav-container>nav>ul {
-    width: 75%;
+    width: 65%;
     display: flex;
     list-style: none;
     margin: 0px;
@@ -60,7 +60,7 @@ body {
     text-align: center;
     font-size: 200%;
     font-weight: bolder;
-    width: 75%;
+    width: 85%;
     height: 30%;
     background-color: rgb(250, 181, 5);
 }
@@ -68,7 +68,7 @@ body {
 .conteiner {
     padding-left: 10px;
     margin-top: 20px;
-    width: 75%;
+    width: 85%;
     text-align: justify;
 }
 
