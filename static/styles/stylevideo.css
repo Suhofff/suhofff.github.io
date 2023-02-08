@@ -1,0 +1,22 @@
+.zagolovok {
+    width: 100%;
+    font-weight: bolder;
+    display: inline-block;
+    text-align: center;
+    font-size: 200%
+}
+.zagolovok2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 150%
+}
+
+.IMG {
+    width: 100%;
+    display:grid;
+    text-align: center;
+    font-size: 150%
+}
